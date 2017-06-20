@@ -4,6 +4,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Temp/*
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -33,4 +34,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Letse Try/Temp/UnityLockfile
+Letse Try/Temp/ProcessJobs/*
 *.bakert
+*.tar
