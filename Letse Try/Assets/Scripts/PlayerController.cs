@@ -7,9 +7,11 @@ public class PlayerController : MonoBehaviour {
 
     public float walkSpeed = 10;
     public float runSpeed = 20;
+    bool locked;
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
+        locked = true;
 	}
 	
 	// Update is called once per frame
@@ -28,16 +30,23 @@ public class PlayerController : MonoBehaviour {
 
         transform.Translate(straffe, 0, translation);
 
-        if (Input.GetKeyDown("escape");
+        if (Input.GetKeyDown("escape"));
         {
-            Cursor.lockState = CursorLockMode.None;
+            locked = !locked;
+            if (locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
         }
 
         //+++++++++++++++++++++++++++++
-        /* if(inputDir != Vector2.zero) { 
+       /*  if(inputDir != Vector2.zero) { 
          transform.eulerAngles = Vector3.up * Mathf.Atan2(inputDir.x, inputDir.y)*Mathf.Rad2Deg;
          }
-         **/
+        **/ 
         
 
         //transform.Translate(transform.position * speed * Time.deltaTime, Space.World);
