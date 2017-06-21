@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 inputDir = input.normalized;
         bool running = Input.GetKey(KeyCode.LeftShift);
-        float speed = ((running) ? runSpeed : walkSpeed * inputDir.magnitude);
+        float speed = ((running) ? runSpeed : walkSpeed) * inputDir.magnitude;
 
         //+++++++++++++++++++++++++++++
 
@@ -49,6 +49,6 @@ public class PlayerController : MonoBehaviour {
         **/ 
         
 
-        //transform.Translate(transform.position * speed * Time.deltaTime, Space.World);
+        //transform.Translate(transform.forward * speed * Time.deltaTime, Space.World);
     }
 }
