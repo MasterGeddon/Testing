@@ -8,8 +8,11 @@ public class PlayerController : MonoBehaviour {
     public float walkSpeed = 10;
     public float runSpeed = 20;
     bool locked;
+    Animator animator;
+
 	// Use this for initialization
 	void Start () {
+        animator = GetComponent<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
         locked = true;
 	}

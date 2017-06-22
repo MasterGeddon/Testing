@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: ecc39deda9b9f6d4bb63bf1b4878a401
+timeCreated: 1498121843
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm1L
+    100002: Arm1R
+    100004: Arm2L
+    100006: Arm2R
+    100008: Armature
+    100010: Back
+    100012: Belly
+    100014: Bone.020
+    100016: Bone.020_end
+    100018: Bone.021
+    100020: Bone.021_end
+    100022: Cube
+    100024: Cube.001
+    100026: Cube.002
+    100028: Cube.003
+    100030: FL
+    100032: FL_end
+    100034: FR
+    100036: FR_end
+    100038: HandL
+    100040: HandL_end
+    100042: HandR
+    100044: HandR_end
+    100046: Head
+    100048: Head_end
+    100050: HipL
+    100052: hipR
+    100054: //RootNode
+    100056: L1L
+    100058: L1R
+    100060: L2L
+    100062: L2R
+    100064: Neck
+    100066: ShoulderL
+    100068: ShoulderR
+    400000: Arm1L
+    400002: Arm1R
+    400004: Arm2L
+    400006: Arm2R
+    400008: Armature
+    400010: Back
+    400012: Belly
+    400014: Bone.020
+    400016: Bone.020_end
+    400018: Bone.021
+    400020: Bone.021_end
+    400022: Cube
+    400024: Cube.001
+    400026: Cube.002
+    400028: Cube.003
+    400030: FL
+    400032: FL_end
+    400034: FR
+    400036: FR_end
+    400038: HandL
+    400040: HandL_end
+    400042: HandR
+    400044: HandR_end
+    400046: Head
+    400048: Head_end
+    400050: HipL
+    400052: hipR
+    400054: //RootNode
+    400056: L1L
+    400058: L1R
+    400060: L2L
+    400062: L2R
+    400064: Neck
+    400066: ShoulderL
+    400068: ShoulderR
+    4300000: Cube.003
+    4300002: Cube.002
+    4300004: Cube.001
+    4300006: Cube
+    7400000: Armature|Idle
+    7400002: Armature|Running
+    7400004: Armature|walking
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube.001
+    13700004: Cube.002
+    13700006: Cube.003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/Belly/Back
+        weight: 1
+      - path: Armature/Belly/Back/Neck
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL/HandL_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR/HandR_end
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/L1L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL/FL_end
+        weight: 1
+      - path: Armature/hipR
+        weight: 1
+      - path: Armature/hipR/L1R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021/Bone.021_end
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR/FR_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running
+      takeName: Armature|Running
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/Belly/Back
+        weight: 1
+      - path: Armature/Belly/Back/Neck
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL/HandL_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR/HandR_end
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/L1L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL/FL_end
+        weight: 1
+      - path: Armature/hipR
+        weight: 1
+      - path: Armature/hipR/L1R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021/Bone.021_end
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR/FR_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walking
+      takeName: Armature|walking
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly
+        weight: 1
+      - path: Armature/Belly/Back
+        weight: 1
+      - path: Armature/Belly/Back/Neck
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head
+        weight: 1
+      - path: Armature/Belly/Back/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderL/Arm1L/Arm2L/HandL/HandL_end
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR
+        weight: 1
+      - path: Armature/Belly/Back/ShoulderR/Arm1R/Arm2R/HandR/HandR_end
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/L1L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/Bone.020/Bone.020_end
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL
+        weight: 1
+      - path: Armature/HipL/L1L/L2L/FL/FL_end
+        weight: 1
+      - path: Armature/hipR
+        weight: 1
+      - path: Armature/hipR/L1R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/Bone.021/Bone.021_end
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR
+        weight: 1
+      - path: Armature/hipR/L1R/L2R/FR/FR_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.003
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L1L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L1R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L2L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L2R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FL
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FR
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Belly
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Back
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderL
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderR
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm1L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm1R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm2L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm2R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HandL
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HandR
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: HumanoidPerson_animated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: HumanoidPerson_animated(Clone)
+      position: {x: -0, y: 6.122179, z: 0}
+      rotation: {x: -0.00000009415696, y: 0.7071068, z: 0.7071067, w: 0.00000009415697}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Belly
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7421047, y: -0.00000012557994, z: -0.00000012972112, w: 0.670284}
+      scale: {x: 0.9999983, y: 0.9999995, z: 0.9999986}
+    - name: Back
+      parentName: Belly
+      position: {x: -0, y: 0.01005185, z: 0}
+      rotation: {x: -0.000000008338251, y: -0.9986895, z: -0.051179737, w: 0.00000007539886}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000014}
+    - name: ShoulderR
+      parentName: Back
+      position: {x: -3.082504e-17, y: 0.01132352, z: -2.2351741e-10}
+      rotation: {x: -0.30958474, y: -0.5500748, z: -0.5387056, w: 0.55800664}
+      scale: {x: 1.0000033, y: 1.000002, z: 1.0000033}
+    - name: Arm1R
+      parentName: ShoulderR
+      position: {x: -1.4901161e-10, y: 0.009185693, z: -0.0000000031147618}
+      rotation: {x: -0.16118076, y: -0.017979473, z: 0.10939416, w: 0.98067856}
+      scale: {x: 1.0000012, y: 1.0000039, z: 1.0000004}
+    - name: Arm2R
+      parentName: Arm1R
+      position: {x: 4.451966e-11, y: 0.019284865, z: -8.1490725e-10}
+      rotation: {x: -0.000000029802319, y: 0.00000006891786, z: -0.000000017462296,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000006}
+    - name: HandR
+      parentName: Arm2R
+      position: {x: 1.4493423e-10, y: 0.017740475, z: 4.738103e-10}
+      rotation: {x: -0, y: -0, z: 2.7755552e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: HandR_end
+      parentName: HandR
+      position: {x: -0, y: 0.009595012, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ShoulderL
+      parentName: Back
+      position: {x: -3.082504e-17, y: 0.01132352, z: -2.2351741e-10}
+      rotation: {x: -0.3208196, y: 0.543074, z: 0.54217374, w: 0.5551514}
+      scale: {x: 1.0000024, y: 1.0000006, z: 1.0000024}
+    - name: Arm1L
+      parentName: ShoulderL
+      position: {x: -1.4901161e-10, y: 0.009254665, z: 0.0000000010622319}
+      rotation: {x: -0.14825252, y: 0.016411006, z: -0.10879423, w: 0.98281014}
+      scale: {x: 1.0000024, y: 1.0000046, z: 1.0000029}
+    - name: Arm2L
+      parentName: Arm1L
+      position: {x: -3.9130582e-10, y: 0.019284874, z: -2.2118911e-10}
+      rotation: {x: -0.000000104308114, y: -0.00000004656612, z: 0.00000002630986,
+        w: 1}
+      scale: {x: 1.0000023, y: 1.0000029, z: 1.0000006}
+    - name: HandL
+      parentName: Arm2L
+      position: {x: -1.4930265e-10, y: 0.017740479, z: 2.8871e-10}
+      rotation: {x: -1.4210856e-14, y: 0.000000044703462, z: 0.00000012782404, w: 1}
+      scale: {x: 1.0000007, y: 1.0000019, z: 1.000002}
+    - name: HandL_end
+      parentName: HandL
+      position: {x: -0, y: 0.009595012, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Back
+      position: {x: -3.082504e-17, y: 0.01132352, z: -2.2351741e-10}
+      rotation: {x: 0.0000000036432761, y: 0.95218605, z: 0.30551887, w: -0.00000007188806}
+      scale: {x: 1.0000038, y: 1.0000007, z: 1.0000026}
+    - name: Head
+      parentName: Neck
+      position: {x: 4.1497272e-17, y: 0.0068346523, z: -0.0000000016763806}
+      rotation: {x: 0.035570946, y: -0.00000003176641, z: 0.0000000011306679, w: 0.9993671}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000027}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.011782327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HipL
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.18332432, y: -0.664854, z: 0.69807667, w: -0.19248492}
+      scale: {x: 1.0000007, y: 1.0000048, z: 1.0000051}
+    - name: L1L
+      parentName: HipL
+      position: {x: 4.4703483e-10, y: 0.0101549085, z: -4.390036e-11}
+      rotation: {x: 0.26573738, y: 0.9637375, z: -0.023491891, w: -0.006477577}
+      scale: {x: 1.0000068, y: 1.0000033, z: 1.0000015}
+    - name: L2L
+      parentName: L1L
+      position: {x: -7.792539e-11, y: 0.023492688, z: 2.8504035e-10}
+      rotation: {x: 0.000000007566995, y: 0.000000025611367, z: -0.000000029802319,
+        w: 1}
+      scale: {x: 1.0000012, y: 1.0000013, z: 1.0000001}
+    - name: FL
+      parentName: L2L
+      position: {x: -3.026424e-11, y: 0.025878662, z: -7.086183e-10}
+      rotation: {x: 0.6020028, y: 0.040175214, z: -0.05310283, w: 0.79571277}
+      scale: {x: 1.0000032, y: 1.0000027, z: 1.0000024}
+    - name: FL_end
+      parentName: FL
+      position: {x: -0, y: 0.008851861, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.020
+      parentName: L2L
+      position: {x: -3.026424e-11, y: 0.025878662, z: -7.086183e-10}
+      rotation: {x: -0.31911886, y: -0.12649478, z: 0.043023717, w: -0.938249}
+      scale: {x: 1.0000006, y: 1.0000036, z: 1.0000033}
+    - name: Bone.020_end
+      parentName: Bone.020
+      position: {x: -0, y: 0.003010227, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hipR
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.37174797, y: -0.3717482, z: 0.6015012, w: 0.6015007}
+      scale: {x: 1.0000008, y: 1.0000024, z: 1.0000004}
+    - name: L1R
+      parentName: hipR
+      position: {x: -1.0658141e-16, y: 0.009500011, z: 2.8699266e-16}
+      rotation: {x: -0.16245976, y: 0.6881913, z: -0.16245987, w: 0.6881907}
+      scale: {x: 1.0000018, y: 1.0000002, z: 1.0000008}
+    - name: L2R
+      parentName: L1R
+      position: {x: -4.4092635e-10, y: 0.023492694, z: 1.5281039e-10}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.012617245, w: 0.9999205}
+      scale: {x: 1.0000048, y: 1.0000051, z: 0.9999999}
+    - name: FR
+      parentName: L2R
+      position: {x: -5.6097633e-11, y: 0.025886921, z: 2.1847828e-10}
+      rotation: {x: 0.60022885, y: -0.061212514, z: 0.060864497, w: 0.79515654}
+      scale: {x: 1.0000063, y: 1.0000031, z: 1.0000025}
+    - name: FR_end
+      parentName: FR
+      position: {x: -0, y: 0.00891425, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.021
+      parentName: L2R
+      position: {x: -5.6097633e-11, y: 0.025886921, z: 2.1847828e-10}
+      rotation: {x: -0.32449403, y: -0.11513308, z: 0.025452143, w: -0.9385096}
+      scale: {x: 1.0000004, y: 1.0000049, z: 1.0000043}
+    - name: Bone.021_end
+      parentName: Bone.021
+      position: {x: -0, y: 0.0030165934, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: HumanoidPerson_animated(Clone)
+      position: {x: -0, y: 6.8111844, z: 0}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.001
+      parentName: HumanoidPerson_animated(Clone)
+      position: {x: -0, y: 5.769579, z: 0}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.002
+      parentName: HumanoidPerson_animated(Clone)
+      position: {x: 0.000000034904126, y: 8.461042, z: -0.107119985}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.003
+      parentName: HumanoidPerson_animated(Clone)
+      position: {x: -0, y: 9.612703, z: 0}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
