@@ -45,6 +45,10 @@ public class PlayerController : MonoBehaviour {
             }
         }
 
+
+        float animationSpeedPercent = ((running) ?1:.5f) * inputDir.magnitude;
+
+        animator.SetFloat("speedpercent", animationSpeedPercent);
         //+++++++++++++++++++++++++++++
        /*  if(inputDir != Vector2.zero) { 
          transform.eulerAngles = Vector3.up * Mathf.Atan2(inputDir.x, inputDir.y)*Mathf.Rad2Deg;
