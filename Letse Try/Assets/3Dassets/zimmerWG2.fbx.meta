@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: ebf13774fa0fd4048aa4c38a077bfbc1
+timeCreated: 1499416768
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bett
+    100002: Bett.001
+    100004: Bett.002
+    100006: Bett.003
+    100008: Bett.004
+    100010: Bett.005
+    100012: Bett.006
+    100014: Bett.007
+    100016: Bildschirm1
+    100018: Bildschirm1.001
+    100020: Bildschirm1.002
+    100022: Bildschirm1.003
+    100024: Bildschirm1.004
+    100026: Bildschirm1.005
+    100028: Bildschirm1.006
+    100030: Bildschirm1.007
+    100032: Bildschirm2
+    100034: Bildschirm2.001
+    100036: Bildschirm2.002
+    100038: Bildschirm2.003
+    100040: Bildschirm2.004
+    100042: Bildschirm2.005
+    100044: Bildschirm2.006
+    100046: Bildschirm2.007
+    100048: Blumentisch
+    100050: Blumentisch.001
+    100052: Blumentisch.002
+    100054: Blumentisch.003
+    100056: Blumentisch.004
+    100058: Blumentisch.005
+    100060: Blumentisch.006
+    100062: Blumentisch.007
+    100064: Cube.001
+    100066: Cube.002
+    100068: Cube.003
+    100070: Cube.004
+    100072: Cube.005
+    100074: Cube.006
+    100076: Cube.007
+    100078: Cube.008
+    100080: Fehrnserschrank
+    100082: Fehrnserschrank.001
+    100084: Fehrnserschrank.002
+    100086: Fehrnserschrank.003
+    100088: Fehrnserschrank.004
+    100090: Fehrnserschrank.005
+    100092: Fehrnserschrank.006
+    100094: Fehrnserschrank.007
+    100096: Fernseher.000
+    100098: Fernseher.001
+    100100: Fernseher.002
+    100102: Fernseher.003
+    100104: Fernsehr
+    100106: Fernsehr.001
+    100108: Fernsehr.002
+    100110: Fernsehr.003
+    100112: "F\xE4cher"
+    100114: "F\xE4cher.001"
+    100116: "F\xE4cher.002"
+    100118: "F\xE4cher.003"
+    100120: "F\xE4cher.004"
+    100122: "F\xE4cher.005"
+    100124: "F\xE4cher.006"
+    100126: "F\xE4cher.007"
+    100128: "F\xE4cherschub"
+    100130: "F\xE4cherschub.001"
+    100132: "F\xE4cherschub.002"
+    100134: "F\xE4cherschub.003"
+    100136: "F\xE4cherschub.004"
+    100138: "F\xE4cherschub.005"
+    100140: "F\xE4cherschub.006"
+    100142: "F\xE4cherschub.007"
+    100144: "Gro\xDFer desk"
+    100146: "Gro\xDFer desk.001"
+    100148: "Gro\xDFer desk.002"
+    100150: "Gro\xDFer desk.003"
+    100152: "Gro\xDFer desk.004"
+    100154: "Gro\xDFer desk.005"
+    100156: "Gro\xDFer desk.006"
+    100158: "Gro\xDFer desk.007"
+    100160: Kleiderschrank
+    100162: Kleiderschrank.001
+    100164: Kleiderschrank.002
+    100166: Kleiderschrank.003
+    100168: Kleiderschrank.004
+    100170: Kleiderschrank.005
+    100172: Kleiderschrank.006
+    100174: Kleiderschrank.007
+    100176: kleiner desk
+    100178: kleiner desk.001
+    100180: kleiner desk.002
+    100182: kleiner desk.003
+    100184: kleiner desk.004
+    100186: kleiner desk.005
+    100188: kleiner desk.006
+    100190: kleiner desk.007
+    100192: kleines Regal
+    100194: kleines Regal.001
+    100196: kleines Regal.002
+    100198: kleines Regal.003
+    100200: kleines Regal.004
+    100202: kleines Regal.005
+    100204: Plane
+    100206: Plane.001
+    100208: Plane.002
+    100210: Plane.003
+    100212: Plane.004
+    100214: Plane.005
+    100216: Plane.006
+    100218: Plane.007
+    100220: Plane.008
+    100222: Raum.000
+    100224: Raum.001
+    100226: Raum.002
+    100228: Raum.003
+    100230: Raum.004
+    100232: Raum.005
+    100234: Raum.006
+    100236: Raum.007
+    100238: Raum1
+    100240: Raum2
+    100242: Raum3
+    100244: Raum4
+    100246: Raum5
+    100248: Raum6
+    100250: Raum7
+    100252: Raum8
+    100254: schreibutensilien
+    100256: schreibutensilien.001
+    100258: schreibutensilien.002
+    100260: schreibutensilien.003
+    100262: schreibutensilien.004
+    100264: schreibutensilien.005
+    100266: schreibutensilien.006
+    100268: schreibutensilien.007
+    100270: Sun
+    100272: Sun.001
+    100274: Sun.002
+    100276: Sun.003
+    100278: WhiteBoard
+    100280: WhiteBoard.001
+    100282: WhiteBoard.002
+    100284: WhiteBoard.003
+    100286: WhiteBoard.004
+    100288: WhiteBoard.005
+    100290: WhiteBoard.006
+    100292: WhiteBoard.007
+    100294: //RootNode
+    400000: Bett
+    400002: Bett.001
+    400004: Bett.002
+    400006: Bett.003
+    400008: Bett.004
+    400010: Bett.005
+    400012: Bett.006
+    400014: Bett.007
+    400016: Bildschirm1
+    400018: Bildschirm1.001
+    400020: Bildschirm1.002
+    400022: Bildschirm1.003
+    400024: Bildschirm1.004
+    400026: Bildschirm1.005
+    400028: Bildschirm1.006
+    400030: Bildschirm1.007
+    400032: Bildschirm2
+    400034: Bildschirm2.001
+    400036: Bildschirm2.002
+    400038: Bildschirm2.003
+    400040: Bildschirm2.004
+    400042: Bildschirm2.005
+    400044: Bildschirm2.006
+    400046: Bildschirm2.007
+    400048: Blumentisch
+    400050: Blumentisch.001
+    400052: Blumentisch.002
+    400054: Blumentisch.003
+    400056: Blumentisch.004
+    400058: Blumentisch.005
+    400060: Blumentisch.006
+    400062: Blumentisch.007
+    400064: Cube.001
+    400066: Cube.002
+    400068: Cube.003
+    400070: Cube.004
+    400072: Cube.005
+    400074: Cube.006
+    400076: Cube.007
+    400078: Cube.008
+    400080: Fehrnserschrank
+    400082: Fehrnserschrank.001
+    400084: Fehrnserschrank.002
+    400086: Fehrnserschrank.003
+    400088: Fehrnserschrank.004
+    400090: Fehrnserschrank.005
+    400092: Fehrnserschrank.006
+    400094: Fehrnserschrank.007
+    400096: Fernseher.000
+    400098: Fernseher.001
+    400100: Fernseher.002
+    400102: Fernseher.003
+    400104: Fernsehr
+    400106: Fernsehr.001
+    400108: Fernsehr.002
+    400110: Fernsehr.003
+    400112: "F\xE4cher"
+    400114: "F\xE4cher.001"
+    400116: "F\xE4cher.002"
+    400118: "F\xE4cher.003"
+    400120: "F\xE4cher.004"
+    400122: "F\xE4cher.005"
+    400124: "F\xE4cher.006"
+    400126: "F\xE4cher.007"
+    400128: "F\xE4cherschub"
+    400130: "F\xE4cherschub.001"
+    400132: "F\xE4cherschub.002"
+    400134: "F\xE4cherschub.003"
+    400136: "F\xE4cherschub.004"
+    400138: "F\xE4cherschub.005"
+    400140: "F\xE4cherschub.006"
+    400142: "F\xE4cherschub.007"
+    400144: "Gro\xDFer desk"
+    400146: "Gro\xDFer desk.001"
+    400148: "Gro\xDFer desk.002"
+    400150: "Gro\xDFer desk.003"
+    400152: "Gro\xDFer desk.004"
+    400154: "Gro\xDFer desk.005"
+    400156: "Gro\xDFer desk.006"
+    400158: "Gro\xDFer desk.007"
+    400160: Kleiderschrank
+    400162: Kleiderschrank.001
+    400164: Kleiderschrank.002
+    400166: Kleiderschrank.003
+    400168: Kleiderschrank.004
+    400170: Kleiderschrank.005
+    400172: Kleiderschrank.006
+    400174: Kleiderschrank.007
+    400176: kleiner desk
+    400178: kleiner desk.001
+    400180: kleiner desk.002
+    400182: kleiner desk.003
+    400184: kleiner desk.004
+    400186: kleiner desk.005
+    400188: kleiner desk.006
+    400190: kleiner desk.007
+    400192: kleines Regal
+    400194: kleines Regal.001
+    400196: kleines Regal.002
+    400198: kleines Regal.003
+    400200: kleines Regal.004
+    400202: kleines Regal.005
+    400204: Plane
+    400206: Plane.001
+    400208: Plane.002
+    400210: Plane.003
+    400212: Plane.004
+    400214: Plane.005
+    400216: Plane.006
+    400218: Plane.007
+    400220: Plane.008
+    400222: Raum.000
+    400224: Raum.001
+    400226: Raum.002
+    400228: Raum.003
+    400230: Raum.004
+    400232: Raum.005
+    400234: Raum.006
+    400236: Raum.007
+    400238: Raum1
+    400240: Raum2
+    400242: Raum3
+    400244: Raum4
+    400246: Raum5
+    400248: Raum6
+    400250: Raum7
+    400252: Raum8
+    400254: schreibutensilien
+    400256: schreibutensilien.001
+    400258: schreibutensilien.002
+    400260: schreibutensilien.003
+    400262: schreibutensilien.004
+    400264: schreibutensilien.005
+    400266: schreibutensilien.006
+    400268: schreibutensilien.007
+    400270: Sun
+    400272: Sun.001
+    400274: Sun.002
+    400276: Sun.003
+    400278: WhiteBoard
+    400280: WhiteBoard.001
+    400282: WhiteBoard.002
+    400284: WhiteBoard.003
+    400286: WhiteBoard.004
+    400288: WhiteBoard.005
+    400290: WhiteBoard.006
+    400292: WhiteBoard.007
+    400294: //RootNode
+    2300000: Bett
+    2300002: Bett.001
+    2300004: Bett.002
+    2300006: Bett.003
+    2300008: Bett.004
+    2300010: Bett.005
+    2300012: Bett.006
+    2300014: Bett.007
+    2300016: Bildschirm1
+    2300018: Bildschirm1.001
+    2300020: Bildschirm1.002
+    2300022: Bildschirm1.003
+    2300024: Bildschirm1.004
+    2300026: Bildschirm1.005
+    2300028: Bildschirm1.006
+    2300030: Bildschirm1.007
+    2300032: Bildschirm2
+    2300034: Bildschirm2.001
+    2300036: Bildschirm2.002
+    2300038: Bildschirm2.003
+    2300040: Bildschirm2.004
+    2300042: Bildschirm2.005
+    2300044: Bildschirm2.006
+    2300046: Bildschirm2.007
+    2300048: Blumentisch
+    2300050: Blumentisch.001
+    2300052: Blumentisch.002
+    2300054: Blumentisch.003
+    2300056: Blumentisch.004
+    2300058: Blumentisch.005
+    2300060: Blumentisch.006
+    2300062: Blumentisch.007
+    2300064: Cube.001
+    2300066: Cube.002
+    2300068: Cube.003
+    2300070: Cube.004
+    2300072: Cube.005
+    2300074: Cube.006
+    2300076: Cube.007
+    2300078: Cube.008
+    2300080: Fehrnserschrank
+    2300082: Fehrnserschrank.001
+    2300084: Fehrnserschrank.002
+    2300086: Fehrnserschrank.003
+    2300088: Fehrnserschrank.004
+    2300090: Fehrnserschrank.005
+    2300092: Fehrnserschrank.006
+    2300094: Fehrnserschrank.007
+    2300096: Fernseher.000
+    2300098: Fernseher.001
+    2300100: Fernseher.002
+    2300102: Fernseher.003
+    2300104: Fernsehr
+    2300106: Fernsehr.001
+    2300108: Fernsehr.002
+    2300110: Fernsehr.003
+    2300112: "F\xE4cher"
+    2300114: "F\xE4cher.001"
+    2300116: "F\xE4cher.002"
+    2300118: "F\xE4cher.003"
+    2300120: "F\xE4cher.004"
+    2300122: "F\xE4cher.005"
+    2300124: "F\xE4cher.006"
+    2300126: "F\xE4cher.007"
+    2300128: "F\xE4cherschub"
+    2300130: "F\xE4cherschub.001"
+    2300132: "F\xE4cherschub.002"
+    2300134: "F\xE4cherschub.003"
+    2300136: "F\xE4cherschub.004"
+    2300138: "F\xE4cherschub.005"
+    2300140: "F\xE4cherschub.006"
+    2300142: "F\xE4cherschub.007"
+    2300144: "Gro\xDFer desk"
+    2300146: "Gro\xDFer desk.001"
+    2300148: "Gro\xDFer desk.002"
+    2300150: "Gro\xDFer desk.003"
+    2300152: "Gro\xDFer desk.004"
+    2300154: "Gro\xDFer desk.005"
+    2300156: "Gro\xDFer desk.006"
+    2300158: "Gro\xDFer desk.007"
+    2300160: Kleiderschrank
+    2300162: Kleiderschrank.001
+    2300164: Kleiderschrank.002
+    2300166: Kleiderschrank.003
+    2300168: Kleiderschrank.004
+    2300170: Kleiderschrank.005
+    2300172: Kleiderschrank.006
+    2300174: Kleiderschrank.007
+    2300176: kleiner desk
+    2300178: kleiner desk.001
+    2300180: kleiner desk.002
+    2300182: kleiner desk.003
+    2300184: kleiner desk.004
+    2300186: kleiner desk.005
+    2300188: kleiner desk.006
+    2300190: kleiner desk.007
+    2300192: kleines Regal
+    2300194: kleines Regal.001
+    2300196: kleines Regal.002
+    2300198: kleines Regal.003
+    2300200: kleines Regal.004
+    2300202: kleines Regal.005
+    2300204: Plane
+    2300206: Plane.001
+    2300208: Plane.002
+    2300210: Plane.003
+    2300212: Plane.004
+    2300214: Plane.005
+    2300216: Plane.006
+    2300218: Plane.007
+    2300220: Plane.008
+    2300222: Raum.000
+    2300224: Raum.001
+    2300226: Raum.002
+    2300228: Raum.003
+    2300230: Raum.004
+    2300232: Raum.005
+    2300234: Raum.006
+    2300236: Raum.007
+    2300238: schreibutensilien
+    2300240: schreibutensilien.001
+    2300242: schreibutensilien.002
+    2300244: schreibutensilien.003
+    2300246: schreibutensilien.004
+    2300248: schreibutensilien.005
+    2300250: schreibutensilien.006
+    2300252: schreibutensilien.007
+    2300254: WhiteBoard
+    2300256: WhiteBoard.001
+    2300258: WhiteBoard.002
+    2300260: WhiteBoard.003
+    2300262: WhiteBoard.004
+    2300264: WhiteBoard.005
+    2300266: WhiteBoard.006
+    2300268: WhiteBoard.007
+    3300000: Bett
+    3300002: Bett.001
+    3300004: Bett.002
+    3300006: Bett.003
+    3300008: Bett.004
+    3300010: Bett.005
+    3300012: Bett.006
+    3300014: Bett.007
+    3300016: Bildschirm1
+    3300018: Bildschirm1.001
+    3300020: Bildschirm1.002
+    3300022: Bildschirm1.003
+    3300024: Bildschirm1.004
+    3300026: Bildschirm1.005
+    3300028: Bildschirm1.006
+    3300030: Bildschirm1.007
+    3300032: Bildschirm2
+    3300034: Bildschirm2.001
+    3300036: Bildschirm2.002
+    3300038: Bildschirm2.003
+    3300040: Bildschirm2.004
+    3300042: Bildschirm2.005
+    3300044: Bildschirm2.006
+    3300046: Bildschirm2.007
+    3300048: Blumentisch
+    3300050: Blumentisch.001
+    3300052: Blumentisch.002
+    3300054: Blumentisch.003
+    3300056: Blumentisch.004
+    3300058: Blumentisch.005
+    3300060: Blumentisch.006
+    3300062: Blumentisch.007
+    3300064: Cube.001
+    3300066: Cube.002
+    3300068: Cube.003
+    3300070: Cube.004
+    3300072: Cube.005
+    3300074: Cube.006
+    3300076: Cube.007
+    3300078: Cube.008
+    3300080: Fehrnserschrank
+    3300082: Fehrnserschrank.001
+    3300084: Fehrnserschrank.002
+    3300086: Fehrnserschrank.003
+    3300088: Fehrnserschrank.004
+    3300090: Fehrnserschrank.005
+    3300092: Fehrnserschrank.006
+    3300094: Fehrnserschrank.007
+    3300096: Fernseher.000
+    3300098: Fernseher.001
+    3300100: Fernseher.002
+    3300102: Fernseher.003
+    3300104: Fernsehr
+    3300106: Fernsehr.001
+    3300108: Fernsehr.002
+    3300110: Fernsehr.003
+    3300112: "F\xE4cher"
+    3300114: "F\xE4cher.001"
+    3300116: "F\xE4cher.002"
+    3300118: "F\xE4cher.003"
+    3300120: "F\xE4cher.004"
+    3300122: "F\xE4cher.005"
+    3300124: "F\xE4cher.006"
+    3300126: "F\xE4cher.007"
+    3300128: "F\xE4cherschub"
+    3300130: "F\xE4cherschub.001"
+    3300132: "F\xE4cherschub.002"
+    3300134: "F\xE4cherschub.003"
+    3300136: "F\xE4cherschub.004"
+    3300138: "F\xE4cherschub.005"
+    3300140: "F\xE4cherschub.006"
+    3300142: "F\xE4cherschub.007"
+    3300144: "Gro\xDFer desk"
+    3300146: "Gro\xDFer desk.001"
+    3300148: "Gro\xDFer desk.002"
+    3300150: "Gro\xDFer desk.003"
+    3300152: "Gro\xDFer desk.004"
+    3300154: "Gro\xDFer desk.005"
+    3300156: "Gro\xDFer desk.006"
+    3300158: "Gro\xDFer desk.007"
+    3300160: Kleiderschrank
+    3300162: Kleiderschrank.001
+    3300164: Kleiderschrank.002
+    3300166: Kleiderschrank.003
+    3300168: Kleiderschrank.004
+    3300170: Kleiderschrank.005
+    3300172: Kleiderschrank.006
+    3300174: Kleiderschrank.007
+    3300176: kleiner desk
+    3300178: kleiner desk.001
+    3300180: kleiner desk.002
+    3300182: kleiner desk.003
+    3300184: kleiner desk.004
+    3300186: kleiner desk.005
+    3300188: kleiner desk.006
+    3300190: kleiner desk.007
+    3300192: kleines Regal
+    3300194: kleines Regal.001
+    3300196: kleines Regal.002
+    3300198: kleines Regal.003
+    3300200: kleines Regal.004
+    3300202: kleines Regal.005
+    3300204: Plane
+    3300206: Plane.001
+    3300208: Plane.002
+    3300210: Plane.003
+    3300212: Plane.004
+    3300214: Plane.005
+    3300216: Plane.006
+    3300218: Plane.007
+    3300220: Plane.008
+    3300222: Raum.000
+    3300224: Raum.001
+    3300226: Raum.002
+    3300228: Raum.003
+    3300230: Raum.004
+    3300232: Raum.005
+    3300234: Raum.006
+    3300236: Raum.007
+    3300238: schreibutensilien
+    3300240: schreibutensilien.001
+    3300242: schreibutensilien.002
+    3300244: schreibutensilien.003
+    3300246: schreibutensilien.004
+    3300248: schreibutensilien.005
+    3300250: schreibutensilien.006
+    3300252: schreibutensilien.007
+    3300254: WhiteBoard
+    3300256: WhiteBoard.001
+    3300258: WhiteBoard.002
+    3300260: WhiteBoard.003
+    3300262: WhiteBoard.004
+    3300264: WhiteBoard.005
+    3300266: WhiteBoard.006
+    3300268: WhiteBoard.007
+    4300000: Plane.008
+    4300002: Plane.005
+    4300004: Cube.006
+    4300006: Fernseher.003
+    4300008: Bildschirm1.005
+    4300010: Bildschirm2.005
+    4300012: "F\xE4cherschub.005"
+    4300014: "F\xE4cher.005"
+    4300016: schreibutensilien.005
+    4300018: Raum.005
+    4300020: Bett.005
+    4300022: "Gro\xDFer desk.005"
+    4300024: kleiner desk.005
+    4300026: Kleiderschrank.005
+    4300028: kleines Regal.005
+    4300030: Fehrnserschrank.005
+    4300032: Blumentisch.005
+    4300034: WhiteBoard.005
+    4300036: Raum.003
+    4300038: Plane
+    4300040: Cube.001
+    4300042: Fernsehr
+    4300044: Bildschirm1
+    4300046: Bildschirm2
+    4300048: schreibutensilien
+    4300050: "F\xE4cher"
+    4300052: "F\xE4cherschub"
+    4300054: WhiteBoard
+    4300056: Blumentisch
+    4300058: Fehrnserschrank
+    4300060: kleines Regal
+    4300062: Kleiderschrank
+    4300064: kleiner desk
+    4300066: "Gro\xDFer desk"
+    4300068: Bett
+    4300070: Plane.003
+    4300072: Cube.002
+    4300074: Fernsehr.001
+    4300076: Bildschirm2.001
+    4300078: Bildschirm1.001
+    4300080: schreibutensilien.002
+    4300082: "F\xE4cher.002"
+    4300084: "F\xE4cherschub.002"
+    4300086: Raum.002
+    4300088: Bett.002
+    4300090: "Gro\xDFer desk.002"
+    4300092: kleiner desk.002
+    4300094: Kleiderschrank.002
+    4300096: kleines Regal.002
+    4300098: Fehrnserschrank.002
+    4300100: Blumentisch.002
+    4300102: WhiteBoard.002
+    4300104: Plane.002
+    4300106: Cube.003
+    4300108: WhiteBoard.003
+    4300110: Blumentisch.003
+    4300112: Fehrnserschrank.003
+    4300114: kleines Regal.003
+    4300116: Kleiderschrank.003
+    4300118: kleiner desk.003
+    4300120: "Gro\xDFer desk.003"
+    4300122: Bett.003
+    4300124: schreibutensilien.003
+    4300126: "F\xE4cher.003"
+    4300128: "F\xE4cherschub.003"
+    4300130: Bildschirm2.003
+    4300132: Bildschirm1.003
+    4300134: Fernseher.000
+    4300136: Raum.000
+    4300138: Plane.004
+    4300140: WhiteBoard.004
+    4300142: Blumentisch.004
+    4300144: Fehrnserschrank.004
+    4300146: kleines Regal.004
+    4300148: Kleiderschrank.004
+    4300150: kleiner desk.004
+    4300152: "Gro\xDFer desk.004"
+    4300154: Bett.004
+    4300156: Raum.004
+    4300158: schreibutensilien.004
+    4300160: "F\xE4cher.004"
+    4300162: "F\xE4cherschub.004"
+    4300164: Bildschirm2.004
+    4300166: Bildschirm1.004
+    4300168: Fernseher.002
+    4300170: Cube.005
+    4300172: Plane.001
+    4300174: Cube.004
+    4300176: Fernseher.001
+    4300178: Bildschirm1.002
+    4300180: Bildschirm2.002
+    4300182: "F\xE4cherschub.001"
+    4300184: "F\xE4cher.001"
+    4300186: schreibutensilien.001
+    4300188: Raum.001
+    4300190: Bett.001
+    4300192: "Gro\xDFer desk.001"
+    4300194: kleiner desk.001
+    4300196: Kleiderschrank.001
+    4300198: kleines Regal.001
+    4300200: Fehrnserschrank.001
+    4300202: Blumentisch.001
+    4300204: WhiteBoard.001
+    4300206: WhiteBoard.006
+    4300208: Plane.006
+    4300210: Blumentisch.006
+    4300212: Fehrnserschrank.006
+    4300214: Fernsehr.002
+    4300216: Kleiderschrank.006
+    4300218: kleiner desk.006
+    4300220: Bildschirm2.006
+    4300222: Bildschirm1.006
+    4300224: Cube.007
+    4300226: "Gro\xDFer desk.006"
+    4300228: "F\xE4cherschub.006"
+    4300230: "F\xE4cher.006"
+    4300232: schreibutensilien.006
+    4300234: Bett.006
+    4300236: Raum.006
+    4300238: Raum.007
+    4300240: Bett.007
+    4300242: schreibutensilien.007
+    4300244: "F\xE4cher.007"
+    4300246: "F\xE4cherschub.007"
+    4300248: "Gro\xDFer desk.007"
+    4300250: Cube.008
+    4300252: Bildschirm1.007
+    4300254: Bildschirm2.007
+    4300256: kleiner desk.007
+    4300258: Kleiderschrank.007
+    4300260: Fernsehr.003
+    4300262: Fehrnserschrank.007
+    4300264: Blumentisch.007
+    4300266: Plane.007
+    4300268: WhiteBoard.007
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
